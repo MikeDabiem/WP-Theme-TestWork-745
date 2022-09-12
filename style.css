@@ -1,0 +1,130 @@
+/*
+Theme Name: TestWork 745
+Author: Viktor Hvozdakov
+Author URI: https://www.linkedin.com/in/viktor-hvozdakov/
+Description: Test task theme
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: testwork745
+*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 80px;
+    background: #F5F5F5;
+}
+
+.container {
+    background: #fff;
+    min-height: 80vh;
+    border-radius: 10px;
+}
+
+.shop {
+    padding: 80px;
+}
+
+.products {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.products__item {
+    border: 1px solid #bababa;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    padding-bottom: 20px;
+    -webkit-box-shadow: 5px 5px 5px 0px #cdcdcd;
+    box-shadow: 5px 5px 5px 0px #cdcdcd;
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.products__item:hover {
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+.products__item a {
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.create__form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 600px;
+    max-height: 240px;
+    margin: 0 auto;
+    gap: 10px;
+}
+
+.col1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 50%;
+    border: 1px solid rgb(201, 201, 201);
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.col1 button {
+    margin: 0 auto;
+}
+
+.pic-preview {
+    text-align: center;
+}
+
+.pic-preview img {
+    max-height: 190px;
+}
+
+.hidden {
+    display: none;
+}
+
+.col2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.col2 :nth-child(2n+1) {
+    margin-top: 10px;
+}
+
+.create__form button {
+    padding: 10px;
+}

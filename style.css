@@ -128,3 +128,31 @@ body {
 .create__form button {
     padding: 10px;
 }
+@media screen and (max-width: 640px) {
+    body {
+        padding: 20px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .create__form {
+        flex-direction: column;
+        align-items: center;
+        max-height: 100%;
+    }
+    .col1 {
+        width: 90%;
+        height: 250px;
+    }
+    .col2 {
+        width: 90%;
+    }
+    .pic-preview img {
+        max-width: 100%;
+    }
+    .shop {
+        padding: 20px;
+    }
+    .products__item img {
+        width: 100%;
+    }
+}
